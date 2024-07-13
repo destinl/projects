@@ -1,10 +1,118 @@
-/.vscode
-/build
-/CFTest.exe
-/exam.exe
-/leetcode.exe
-/mihoyo.exe
-/Niuke.exe
-/Test.exe
-/test1.exe
-/VivoTest.exe
+# VSCode related files
+.vscode/
+# this assumes you are using VSCode 1.51 or later
+#.vscode-test/
+
+# User-specific settings
+.vscode-settings.json
+.vscode-remote/
+
+# Windows user-specific settings
+.vscode/User/*
+
+# Mac user-specific settings
+.vscode-oss/User/*
+
+# Linux user-specific settings
+.vscode-oss/User/*
+
+# Project-specific settings
+.vscode/launch.json
+.vscode/tasks.json
+.vscode/extensions.json
+
+# Uncomment the next line if you want to ignore all package directories
+# /node_modules/
+node_modules/
+
+# Logs and other output files
+*.log
+*.log.*
+ 
+# Dependency directories
+*/bin/
+*/obj/
+*/dist/
+*/out/
+*/build/
+*/target/
+*/.git/
+*/.hg/
+*/.svn/
+*/CVS/
+*/.DS_Store
+*/Thumbs.db
+
+# Compiled source #
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Package files #
+*.war
+*.ear
+*.jar
+*.zip
+*.tar.gz
+*.rar
+
+# OS generated files #
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# IDE / code analysis
+*.swp
+*.swo
+*.swn
+*.bak
+*.tmp
+*.temp
+*~.nib
+*.bak.*
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# dotenv
+.env*
+.env.*
+
+# transitive dependencies
+**/package-lock.json
+**/yarn.lock
+**/pnpm-lock.yaml
+
+# Editor and IDE files
+.idea/
+*.sublime-workspace
+*.sublime-project
+*.ammonite-db
+
+# IDE / code generation files
+*.ipynb_checkpoints/
+
+# VSCode
+.vscode/*.json
+.vscode/*.code-workspace
+.vscode/*.vsix
+.vscode/*.vscodeignore
+
+# Uncomment next line to ignore package manager directories (useful if you have run npm install)
+# /package-lock.json
+# /yarn.lock
+# /pnpm-lock.yaml
+
+# Operating System Files #
+.*.swp
+.*.swo
+.*.swn
+.*~
+Thumbs.db
